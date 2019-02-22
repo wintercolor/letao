@@ -1,0 +1,20 @@
+.com-body {
+    background-color: #222D32;
+}
+
+.panel {
+    margin: 200px auto;
+}
+.panel h3 {
+    text-align: center;
+    height: 40px;
+}
+.form-group .left  {
+    float: left;
+}
+.form-group .right {
+    float: right;
+}
+.form-group .control-label {
+    text-align: right;
+}
