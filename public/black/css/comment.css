@@ -18,3 +18,142 @@
 .form-group .control-label {
     text-align: right;
 }
+
+/* index页面 */
+/* 侧边栏------------------------------------------ */
+.lt_slide {
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222D32;
+    z-index: 999;
+    transition: all 1s;
+}
+.lt_slide.hiddenmenu {
+    left: -180px;
+}
+.lt_slide .brand {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #367FA9
+}
+.lt_slide .brand a {
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    text-decoration: none;
+}
+.lt_slide .title {
+    margin-top: 30px;
+    text-align: center;
+}
+.lt_slide .title img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.lt_slide .title p {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5px;
+}
+.lt_slide  .pageF {
+    width: 100%;
+    margin-top: 40px;
+}
+/* .lt_slide  .pageF li {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+} */
+.lt_slide  .pageF {
+    padding: 0;
+}
+.lt_slide  .pageF li a {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+  border-left: 3px solid transparent;
+
+}
+.lt_slide  .pageF li a.current {
+    background-color: #1D1F21;
+    border-left: 3px solid #069;
+}
+.lt_slide  .pageF li:nth-child(2) ul{
+    display: none;
+}
+
+.lt_mian {
+    width: 100%;
+    padding-left: 180px;
+    transition: all 1s;
+}
+.lt_mian.hidemen {
+    padding-left: 0px;
+}
+.lt_mian .tops {
+    height: 50px;
+    background-color: #fff;
+    background-color: #3C8DBC;
+    transition: all 1s;
+}
+.lt_mian .tops.hiddeeen {
+   padding-left: 0px;
+}
+.lt_mian .tops a {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    color: #fff;
+}
+.lt_mian .tops .left {
+    float: left;
+}
+.lt_mian .tops .right {
+    float: right;
+}
+.lt_mian .bottom {
+    padding: 0px 15px;
+}
+.lt_mian .contro {
+    height: 30px;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.lt_mian .contro  ol {
+    list-style:none;
+}
+.lt_mian .contro li {
+    float: left;
+    margin-right: 15px;
+}
+.modal .modal-body {
+    color: red;
+}
+.lt_mian .new {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.lt_mian .new .gih,
+.lt_mian .new .cirl {
+    width: 48%;
+    height: 400px;
+}
+
